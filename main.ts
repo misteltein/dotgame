@@ -18,12 +18,8 @@ input.onButtonPressed(Button.B, function () {
         for (let i = 0; i <= 4; i++) {
             if (S[i].get(LedSpriteProperty.Y) != 2) {
                 basic.showIcon(IconNames.No)
-                basic.showIcon(IconNames.No)
-                basic.showIcon(IconNames.No)
             }
         }
-        basic.showIcon(IconNames.Diamond)
-        basic.showIcon(IconNames.Diamond)
         basic.showIcon(IconNames.Diamond)
     }
     idx_sprite += 1
@@ -37,6 +33,3 @@ S.push(game.createSprite(2, 0))
 S.push(game.createSprite(3, 0))
 S.push(game.createSprite(4, 0))
 idx_sprite = 0
-basic.forever(function () {
-	
-})
